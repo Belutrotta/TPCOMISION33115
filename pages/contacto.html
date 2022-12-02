@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+<header>
+    <!--nav= etiqueta semantica para menu de nav--> 
+    <nav>
+        <ul>
+          <li>
+             <a href="../index.html">Inicio</a>
+          </li>
+        
+           <li>
+             <a href="nosotros.html">Nosotros</a>
+           </li>
+        
+           <li>
+             <a href="portfolio.html">Portfolio</a>
+           </li>
+        
+           <li>
+             <a href="servicios.html">Servicios</a>
+           </li>
+        
+           <li>
+             <a href="contacto.html">Contacto</a>
+           </li>
+         </ul>
+
+
+
+     </nav> 
+</header>
+
+<section> 
+    <h1> Contacto</h1>
+    <p>Completa el formulario con tus datos y nos contactaremos a la brevedad</p>
+    <form>
+        <fieldset>
+            <legend>Información personal:</legend>
+
+            <p>Sexo:</p>
+            <input type="radio" name="Sexo" id="Hombre">
+            <label for="Hombre">Hombre</label>
+
+            <input type="radio" name="Sexo" id="Mujer">
+            <label for="Mujer">Mujer</label>
+
+            <div>
+              <label for="Nombre">Nombre</label>
+              <input type="text" id="Nombre"placeholder="Nombre">
+              
+            </div>
+
+            <div>
+              <label for="email">Email</label>
+              <input type="text" id="Email" placeholder="nombre@ejemplo.com">
+            </div>
+
+            <div>
+              <label for="proyecto">Proyecto:</label>
+             <select id="proyecto">
+       
+              <option disabled>Seleccione una opción</option>
+              <option>Tv</option>
+              <option>Cine</option>
+              <option>Redes sociales</option>
+              <option>Corporativos</option>
+             </select>
+            </div>
+            
+            <input type="submit" value="Enviar"
+        </fieldset>
+    </form>
+</section>
+
+    
+</body>
+</html>
